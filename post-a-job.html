@@ -1,0 +1,1228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Placementor</title>
+    <!-- stylesheets-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/select2/css/select2.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/color.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- start topbar -->
+        
+        <!-- end topbar -->
+ 
+        <!-- start menu -->
+        <div class="jbm-mennubar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="jbm-logo">
+                            
+                            <h2 class="text-primary">Placementor</h2>
+                        </div>
+                        <div class="jbm-menu-icon pull-right hidden-lg">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 302 302" xml:space="preserve"><g><rect y="36" width="302" height="30" fill="#454545"/><rect y="236" width="302" height="30" fill="#454545"/><rect y="136" width="302" height="30" fill="#454545"/></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 offset-md-1">
+                        <nav class="jbm-menu-container">
+                            <ul class="jbm-menu list-none dis-inline">
+                                <li>
+                                    <a href="index2.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Candidates <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <div class="mega-menu">
+                                        <ul>
+                                            <li class="jbm-pg-hd">
+                                                <h3>Candidates Header</h3>
+                                            </li>
+                                            <li>
+                                                <a href="candidate-information.html">Candidate Dashboard</a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="candidate-account-setting.html">Account Settings</a>
+                                            </li>
+                                        </ul>
+                                        
+                                        <ul>
+                                            <li class="jbm-pg-hd">
+                                                <h3>Candidate Pages</h3>
+                                            </li>
+                                            <li>
+                                                <a href="candidate-job-history.html">Job History</a>
+                                            </li>
+                                            <li>
+                                                <a href="cv.html">CV</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">Employers<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <div class="mega-menu">
+                                        <ul>
+                                            <li class="jbm-pg-hd">
+                                                <h3>Heading One</h3>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="apply-job.html">Apply Job</a>
+                                            </li>
+                                            <li>
+                                                <a href="employer-information.html">Employer Dashboard</a>
+                                            </li>
+                                            <li>
+                                                <a href="post-a-job.html">Post A Job</a>
+                                            </li>
+                                            
+                                        </ul>
+                                        <ul>
+                                            <li class="jbm-pg-hd">
+                                                <h3>Heading Two</h3>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="candidate-applications.html">Candidate Applications</a>
+                                            </li>
+                                            <li>
+                                                <a href="shortlisted-candidates.html">Shortlisted Candidates</a>
+                                            </li>
+                                            <li>
+                                                <a href="employer-account-setting.html">Account Settings</a>
+                                            </li>
+                                            
+                                        
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">Browse Jobs<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="job-full-time.html">Job Full Time</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="search.html">Job Search</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="jbm-searchform">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="search-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 text-right">
+                            <form class="form-inline pull-right" method="post">
+                                <div class="form-group m-r-4">
+                                    <input type="text" class="form-control" name="s" id="header-search-input" placeholder="Search here...">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="jbm-search-sm-btn">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="search-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 text-right">
+                            <form class="form-inline pull-right" method="post">
+                                <div class="form-group m-r-4">
+                                    <input type="text" class="form-control" name="s" id="header-search-input" placeholder="Search here...">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="jbm-search-sm-btn">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end menu -->
+        <!-- start mobile menu -->
+        <div class="jbm-menu-wrap">
+            <div class="jbm-mobile-logo-wrap">
+                <div class="jbm-logo">
+                    <a href>
+                        <img src="assets/img/logo.png" alt="Job Market Logo" class="img-responsive">
+                    </a>
+                </div>
+                <div class="jbm-menu-icon pull-right">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 612 612" xml:space="preserve"><g><g id="cross"><g><polygon points="612,36.004 576.521,0.603 306,270.608 35.478,0.603 0,36.004 270.522,306.011 0,575.997 35.478,611.397 306,341.411 576.521,611.397 612,575.997 341.459,306.011 " fill="#454545"/></g></g></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="jbm-mobile-search-wrap margin-bottom-50">
+                <form class="form-inline" method="post">
+                    <div class="form-group m-r-4">
+                        <input type="text" class="form-control" name="s" id="header-search-input2" placeholder="Search here...">
+                    </div>
+                    <div class="form-group pull-right">
+                        <button type="submit" class="jbm-search-sm-btn">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="jbm-mobile-menu-wrap">
+                <ul class="jbm-mobile-menu">
+                    <li class="mobile-hasmenu">
+                        <a href="index2.html">Home</a>
+                        <ul class="mobile-submenu">
+                            <li>
+                                <a href="#">Homepage 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Homepage 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Homepage 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-hasmenu">
+                        <a href="#">Candidates</a>
+                        <ul class="mobile-submenu">
+                            <li class="jbm-pg-hd">
+                                <h3>Candidates Header</h3>
+                            </li>
+                            <li>
+                                <a href="candidate-information.html">Candidate Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="candidate-message.html">Messages</a>
+                            </li>
+                            <li>
+                                <a href="resume.html">Resume</a>
+                            </li>
+                            <li>
+                                <a href="candidate-account-setting.html">Account Settings</a>
+                            </li>
+                            <li class="jbm-pg-hd">
+                                <h3>Candidate Search</h3>
+                            </li>
+                            <li>
+                                <a href="candidate-search.html">Find Candidate</a>
+                            </li>
+                            <li>
+                                <a href="candidate-search-with-map.html">Map Search</a>
+                            </li>
+                            <li>
+                                <a href="candidate-search-with-filter.html">Search with Filters</a>
+                            </li>
+                            <li>
+                                <a href="candidate-search-with-alphabets.html">Search by Alphabets</a>
+                            </li>
+                            <li class="jbm-pg-hd">
+                                <h3>Candidate Pages</h3>
+                            </li>
+                            <li>
+                                <a href="candidate-single.html">Candidate Single</a>
+                            </li>
+                            <li>
+                                <a href="candidate-job-history.html">Job History</a>
+                            </li>
+                            <li>
+                                <a href="cv.html">CV</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-hasmenu">
+                        <a href="#">Employers</a>
+                        <ul class="mobile-submenu">
+                            <li class="jbm-pg-hd">
+                                <h3>Heading One</h3>
+                            </li>
+                            <li>
+                                <a href="single-job.html">Job Single</a>
+                            </li>
+                            <li>
+                                <a href="apply-job.html">Apply Job</a>
+                            </li>
+                            <li>
+                                <a href="employer-information.html">Employer Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="employer-message.html">Message</a>
+                            </li>
+                        
+                            <li class="jbm-pg-hd">
+                                <h3>Heading Two</h3>
+                            </li>
+                            <li>
+                                <a href="employer-job-history.html">Job History</a>
+                            </li>
+                            <li>
+                                <a href="candidate-applications.html">Candidate Applications</a>
+                            </li>
+                            <li>
+                                <a href="shortlisted-candidates.html">Shortlisted Candidates</a>
+                            </li>
+                            <li>
+                                <a href="payment-history.html">Payment History</a>
+                            </li>
+                            <li class="jbm-pg-hd">
+                                <h3>Heading Three</h3>
+                            </li>
+                            <li>
+                                <a href="post-a-job.html">Post A Job</a>
+                            </li>
+                            <li>
+                                <a href="employer-account-setting.html">Account Settings</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-hasmenu">
+                        <a href="#">Broswe Jobs</a>
+                        <ul class="mobile-submenu">
+                            <li>
+                                <a href="locations.html">Locations</a>
+                            </li>
+                            <li>
+                                <a href="job-full-time.html">Job Full Time</a>
+                            </li>
+                            <li>
+                                <a href="search-with-map.html">Map Search</a>
+                            </li>
+                            <li>
+                                <a href="search.html">Job Search</a>
+                            </li>
+                            <li>
+                                <a href="search-with-filter.html">Search with Filters</a>
+                            </li>
+                            <li>
+                                <a href="search-with-alphabets.html">Search by Alphabets</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-hasmenu">
+                        <a href="#">Pages</a>
+                        <ul class="mobile-submenu">
+                            <li class="jbm-pg-hd">
+                                <h3>Page Heading One</h3>
+                            </li>
+                            <li>
+                                <a href="about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="how-it-works.html">How it Works</a>
+                            </li>
+                            <li>
+                                <a href="terms-and-conditions.html">Terms and Conditions</a>
+                            </li>
+                            <li>
+                                <a href="faqs.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="pricing-plans.html">Pricing Plans</a>
+                            </li>
+                            <li class="jbm-pg-hd">
+                                <h3>Page Heading Two</h3>
+                            </li>
+                            <li>
+                                <a href="shortcodes.html">Shortcodes</a>
+                            </li>
+                            <li>
+                                <a href="typography.html">Typography</a>
+                            </li>
+                            <li>
+                                <a href="header-styles.html">Headers</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404 Page</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="career-jobmarket.html">Career Jobmarket</a>
+                            </li>
+                            <li class="jbm-pg-hd">
+                                <h3>Page Heading Three</h3>
+                            </li>
+                            <li>
+                                <a href="search-no-result.html">Search with no result</a>
+                            </li>
+                            <li>
+                                <a href="sitemap.html">Site Map</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-hasmenu">
+                        <a href="#">Blogs</a>
+                        <ul class="mobile-submenu">
+                            <li>
+                                <a href="blog-standard.html">Blog standard</a>
+                            </li>
+                            <li>
+                                <a href="blog-detail.html">Blog Details</a>
+                            </li>
+                            <li>
+                                <a href="blog-detail-fullwidth.html">Blog detail full width</a>
+                            </li>
+                            <li>
+                                <a href="blog-grid.html">Blog grid</a>
+                            </li>
+                            <li>
+                                <a href="blog-list-layout.html">Blog list layout</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="jbm-mobile-bottom-wrap">
+                <div class="jbm-mobile-bottom-wrap-inner clearfix">
+                    <div class="mobile-username pull-left">
+                        <a href="#" class="mob-logout">LOGOUT</a>
+                        <br>
+                        <a href="#" class="mob-user">John Doe</a>
+                    </div>
+                    <div class="mobile-user-image pull-right">
+                        <img src="assets/img/user-1.jpg" alt="user-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end mobile menu -->
+    </header>
+<!-- section page  start -->
+    <div class="jbm-page-title page-title-bg-2 margin-bottom-80">
+        <div class="container">
+             <div class="row">
+                <div class="col-xs-12 text-center">
+                    <span class="section-tit-line"></span>
+                        <h2><span class="fw-400">Employer</span>
+                        Dashboard</h2>
+                        <p><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a> &nbsp; > &nbsp;<a href="#">Employers</a> 
+                        &nbsp; > &nbsp;Dashboard</p>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+<!-- employer dashboard -->
+    <div class="jbm-emp-dashboard">
+        <div class="container">
+            <div class="row margin-bottom-100">
+                
+                <!-- right section -->
+                    <div class="col-md-9 col-sm-12 col-xs-12 pull-right">
+                        <div class="about-us job-post margin-bottom-30">
+                                <h5 class="margin-bottom-50">Job Details</h5>
+                                 <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <input type="text" name="job-title" id="job-title" class="form-control">
+                                            <label for="job-title">Job Title*</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group jbm-select-2">
+                                            <select class="jbm-s-salary jbm-select-hide-search" name="category" id="jbm-s-category">
+                                                <option value>Job Category*</option>
+                                                <option value>Web Developement</option>
+                                                <option value>Application Developement</option>
+                                                <option value>Article Writer</option>
+                                                <option value>SEO</option>
+                                                <option value>Website Management</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <span>Brief Description</span>
+                                <p class="margin-bottom-60">
+                                    Hello, I am John DOE. I am a web designer with more than 10 years of working experience. I am currently based in Toronto and I am looking forward to relocate should the opportunity arise. I do website, mobile as well as graphic design jobs. I am a very open-minded person and I am always looking forward to learn new skill sets that will help me both careerwise and for my personal development. Feel free to leave me a message.
+                                </p>
+
+                                <!-- row start -->
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group jbm-select-2">
+                                            <select class="jbm-s-salary jbm-select-hide-search" name="type" id="jbm-s-type">
+                                                <option value>Job Type*</option>
+                                                <option value="full-type">Full Type</option>
+                                                <option value="part-type">Part Type</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group jbm-select-2">
+                                            <select class="jbm-s-salary  jbm-select-hide-search" name="salary-offer2" id="jbm-s-salary-offer2">
+                                                <option value>Salary Offered*</option>
+                                                <option value="0-500">$0-$500</option>
+                                                <option value="500-1000">$500-$1000</option>
+                                                <option value="1500-2000">$1500-$2000</option>
+                                                <option value="2000-2500">$2000-$2500</option>
+                                                <option value="2500-3000">$2500-$3000</option>
+                                                <option value="3000-3500">$3000-$3500</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group jbm-select-2">
+                                            <select class="jbm-s-salary jbm-select-hide-search" name="category" id="jbm-s-category">
+                                                <option value>Bonus Scheme*</option>
+                                                <option value>Bonous Offer 1</option>
+                                                <option value>Bonous Offer 2</option>
+                                                <option value>Bonous Offer 3</option>
+                                                <option value>Bonous Offer 4</option>
+                                                <option value>Bonous Offer 5</option>
+                                                <option value>Bonous Offer 6</option>
+                                                <option value>Bonous Offer 7</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group jbm-select-2">
+                                            <select class="jbm-s-salary  jbm-select-hide-search" name="salary-offer" id="jbm-s-salary-offer">
+                                                <option value>Year of Experience*</option>
+                                                <option value="1-year">1 Year</option>
+                                                <option value="1-year">2 Year</option>
+                                                <option value="1-year">3 Year</option>
+                                                <option value="1-year">4 Year</option>
+                                                <option value="1-year">5 Year</option>
+                                                <option value="1-year">6 Year</option>
+                                                <option value="1-year">7 Year</option>
+                                                <option value="1-year">8 Year</option>
+                                                <option value="1-year">9 Year</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group jbm-select-2">
+                                            <select class="jbm-s-salary  jbm-select-hide-search" name="edu-level" id="jbm-s-edu-level">
+                                                <option value>Education Level*</option>
+                                                <option value="matric">Matric/O Level</option>
+                                                <option value="inter">Intermediate/A Level</option>
+                                                <option value="bachelor">Bachelor</option>
+                                                <option value="master">Master</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group jbm-select-2">
+                                            <select class="jbm-s-salary jbm-select-hide-search" name="country" id="jbm-s-country">
+                                                <option value>Country*</option>
+                                                <option value="AF">Afghanistan</option>
+                                                <option value="AX">Åland Islands</option>
+                                                <option value="AL">Albania</option>
+                                                <option value="DZ">Algeria</option>
+                                                <option value="AS">American Samoa</option>
+                                                <option value="AD">Andorra</option>
+                                                <option value="AO">Angola</option>
+                                                <option value="AI">Anguilla</option>
+                                                <option value="AQ">Antarctica</option>
+                                                <option value="AG">Antigua and Barbuda</option>
+                                                <option value="AR">Argentina</option>
+                                                <option value="AM">Armenia</option>
+                                                <option value="AW">Aruba</option>
+                                                <option value="AU">Australia</option>
+                                                <option value="AT">Austria</option>
+                                                <option value="AZ">Azerbaijan</option>
+                                                <option value="BS">Bahamas</option>
+                                                <option value="BH">Bahrain</option>
+                                                <option value="BD">Bangladesh</option>
+                                                <option value="BB">Barbados</option>
+                                                <option value="BY">Belarus</option>
+                                                <option value="BE">Belgium</option>
+                                                <option value="BZ">Belize</option>
+                                                <option value="BJ">Benin</option>
+                                                <option value="BM">Bermuda</option>
+                                                <option value="BT">Bhutan</option>
+                                                <option value="BO">Bolivia, Plurinational State of</option>
+                                                <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                                <option value="BA">Bosnia and Herzegovina</option>
+                                                <option value="BW">Botswana</option>
+                                                <option value="BV">Bouvet Island</option>
+                                                <option value="BR">Brazil</option>
+                                                <option value="IO">British Indian Ocean Territory</option>
+                                                <option value="BN">Brunei Darussalam</option>
+                                                <option value="BG">Bulgaria</option>
+                                                <option value="BF">Burkina Faso</option>
+                                                <option value="BI">Burundi</option>
+                                                <option value="KH">Cambodia</option>
+                                                <option value="CM">Cameroon</option>
+                                                <option value="CA">Canada</option>
+                                                <option value="CV">Cape Verde</option>
+                                                <option value="KY">Cayman Islands</option>
+                                                <option value="CF">Central African Republic</option>
+                                                <option value="TD">Chad</option>
+                                                <option value="CL">Chile</option>
+                                                <option value="CN">China</option>
+                                                <option value="CX">Christmas Island</option>
+                                                <option value="CC">Cocos (Keeling) Islands</option>
+                                                <option value="CO">Colombia</option>
+                                                <option value="KM">Comoros</option>
+                                                <option value="CG">Congo</option>
+                                                <option value="CD">Congo, the Democratic Republic of the</option>
+                                                <option value="CK">Cook Islands</option>
+                                                <option value="CR">Costa Rica</option>
+                                                <option value="CI">Côte d'Ivoire</option>
+                                                <option value="HR">Croatia</option>
+                                                <option value="CU">Cuba</option>
+                                                <option value="CW">Curaçao</option>
+                                                <option value="CY">Cyprus</option>
+                                                <option value="CZ">Czech Republic</option>
+                                                <option value="DK">Denmark</option>
+                                                <option value="DJ">Djibouti</option>
+                                                <option value="DM">Dominica</option>
+                                                <option value="DO">Dominican Republic</option>
+                                                <option value="EC">Ecuador</option>
+                                                <option value="EG">Egypt</option>
+                                                <option value="SV">El Salvador</option>
+                                                <option value="GQ">Equatorial Guinea</option>
+                                                <option value="ER">Eritrea</option>
+                                                <option value="EE">Estonia</option>
+                                                <option value="ET">Ethiopia</option>
+                                                <option value="FK">Falkland Islands (Malvinas)</option>
+                                                <option value="FO">Faroe Islands</option>
+                                                <option value="FJ">Fiji</option>
+                                                <option value="FI">Finland</option>
+                                                <option value="FR">France</option>
+                                                <option value="GF">French Guiana</option>
+                                                <option value="PF">French Polynesia</option>
+                                                <option value="TF">French Southern Territories</option>
+                                                <option value="GA">Gabon</option>
+                                                <option value="GM">Gambia</option>
+                                                <option value="GE">Georgia</option>
+                                                <option value="DE">Germany</option>
+                                                <option value="GH">Ghana</option>
+                                                <option value="GI">Gibraltar</option>
+                                                <option value="GR">Greece</option>
+                                                <option value="GL">Greenland</option>
+                                                <option value="GD">Grenada</option>
+                                                <option value="GP">Guadeloupe</option>
+                                                <option value="GU">Guam</option>
+                                                <option value="GT">Guatemala</option>
+                                                <option value="GG">Guernsey</option>
+                                                <option value="GN">Guinea</option>
+                                                <option value="GW">Guinea-Bissau</option>
+                                                <option value="GY">Guyana</option>
+                                                <option value="HT">Haiti</option>
+                                                <option value="HM">Heard Island and McDonald Islands</option>
+                                                <option value="VA">Holy See (Vatican City State)</option>
+                                                <option value="HN">Honduras</option>
+                                                <option value="HK">Hong Kong</option>
+                                                <option value="HU">Hungary</option>
+                                                <option value="IS">Iceland</option>
+                                                <option value="IN">India</option>
+                                                <option value="ID">Indonesia</option>
+                                                <option value="IR">Iran, Islamic Republic of</option>
+                                                <option value="IQ">Iraq</option>
+                                                <option value="IE">Ireland</option>
+                                                <option value="IM">Isle of Man</option>
+                                                <option value="IL">Israel</option>
+                                                <option value="IT">Italy</option>
+                                                <option value="JM">Jamaica</option>
+                                                <option value="JP">Japan</option>
+                                                <option value="JE">Jersey</option>
+                                                <option value="JO">Jordan</option>
+                                                <option value="KZ">Kazakhstan</option>
+                                                <option value="KE">Kenya</option>
+                                                <option value="KI">Kiribati</option>
+                                                <option value="KP">Korea, Democratic People's Republic of</option>
+                                                <option value="KR">Korea, Republic of</option>
+                                                <option value="KW">Kuwait</option>
+                                                <option value="KG">Kyrgyzstan</option>
+                                                <option value="LA">Lao People's Democratic Republic</option>
+                                                <option value="LV">Latvia</option>
+                                                <option value="LB">Lebanon</option>
+                                                <option value="LS">Lesotho</option>
+                                                <option value="LR">Liberia</option>
+                                                <option value="LY">Libya</option>
+                                                <option value="LI">Liechtenstein</option>
+                                                <option value="LT">Lithuania</option>
+                                                <option value="LU">Luxembourg</option>
+                                                <option value="MO">Macao</option>
+                                                <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                                                <option value="MG">Madagascar</option>
+                                                <option value="MW">Malawi</option>
+                                                <option value="MY">Malaysia</option>
+                                                <option value="MV">Maldives</option>
+                                                <option value="ML">Mali</option>
+                                                <option value="MT">Malta</option>
+                                                <option value="MH">Marshall Islands</option>
+                                                <option value="MQ">Martinique</option>
+                                                <option value="MR">Mauritania</option>
+                                                <option value="MU">Mauritius</option>
+                                                <option value="YT">Mayotte</option>
+                                                <option value="MX">Mexico</option>
+                                                <option value="FM">Micronesia, Federated States of</option>
+                                                <option value="MD">Moldova, Republic of</option>
+                                                <option value="MC">Monaco</option>
+                                                <option value="MN">Mongolia</option>
+                                                <option value="ME">Montenegro</option>
+                                                <option value="MS">Montserrat</option>
+                                                <option value="MA">Morocco</option>
+                                                <option value="MZ">Mozambique</option>
+                                                <option value="MM">Myanmar</option>
+                                                <option value="NA">Namibia</option>
+                                                <option value="NR">Nauru</option>
+                                                <option value="NP">Nepal</option>
+                                                <option value="NL">Netherlands</option>
+                                                <option value="NC">New Caledonia</option>
+                                                <option value="NZ">New Zealand</option>
+                                                <option value="NI">Nicaragua</option>
+                                                <option value="NE">Niger</option>
+                                                <option value="NG">Nigeria</option>
+                                                <option value="NU">Niue</option>
+                                                <option value="NF">Norfolk Island</option>
+                                                <option value="MP">Northern Mariana Islands</option>
+                                                <option value="NO">Norway</option>
+                                                <option value="OM">Oman</option>
+                                                <option value="PK">Pakistan</option>
+                                                <option value="PW">Palau</option>
+                                                <option value="PS">Palestinian Territory, Occupied</option>
+                                                <option value="PA">Panama</option>
+                                                <option value="PG">Papua New Guinea</option>
+                                                <option value="PY">Paraguay</option>
+                                                <option value="PE">Peru</option>
+                                                <option value="PH">Philippines</option>
+                                                <option value="PN">Pitcairn</option>
+                                                <option value="PL">Poland</option>
+                                                <option value="PT">Portugal</option>
+                                                <option value="PR">Puerto Rico</option>
+                                                <option value="QA">Qatar</option>
+                                                <option value="RE">Réunion</option>
+                                                <option value="RO">Romania</option>
+                                                <option value="RU">Russian Federation</option>
+                                                <option value="RW">Rwanda</option>
+                                                <option value="BL">Saint Barthélemy</option>
+                                                <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                                                <option value="KN">Saint Kitts and Nevis</option>
+                                                <option value="LC">Saint Lucia</option>
+                                                <option value="MF">Saint Martin (French part)</option>
+                                                <option value="PM">Saint Pierre and Miquelon</option>
+                                                <option value="VC">Saint Vincent and the Grenadines</option>
+                                                <option value="WS">Samoa</option>
+                                                <option value="SM">San Marino</option>
+                                                <option value="ST">Sao Tome and Principe</option>
+                                                <option value="SA">Saudi Arabia</option>
+                                                <option value="SN">Senegal</option>
+                                                <option value="RS">Serbia</option>
+                                                <option value="SC">Seychelles</option>
+                                                <option value="SL">Sierra Leone</option>
+                                                <option value="SG">Singapore</option>
+                                                <option value="SX">Sint Maarten (Dutch part)</option>
+                                                <option value="SK">Slovakia</option>
+                                                <option value="SI">Slovenia</option>
+                                                <option value="SB">Solomon Islands</option>
+                                                <option value="SO">Somalia</option>
+                                                <option value="ZA">South Africa</option>
+                                                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                                <option value="SS">South Sudan</option>
+                                                <option value="ES">Spain</option>
+                                                <option value="LK">Sri Lanka</option>
+                                                <option value="SD">Sudan</option>
+                                                <option value="SR">Suriname</option>
+                                                <option value="SJ">Svalbard and Jan Mayen</option>
+                                                <option value="SZ">Swaziland</option>
+                                                <option value="SE">Sweden</option>
+                                                <option value="CH">Switzerland</option>
+                                                <option value="SY">Syrian Arab Republic</option>
+                                                <option value="TW">Taiwan, Province of China</option>
+                                                <option value="TJ">Tajikistan</option>
+                                                <option value="TZ">Tanzania, United Republic of</option>
+                                                <option value="TH">Thailand</option>
+                                                <option value="TL">Timor-Leste</option>
+                                                <option value="TG">Togo</option>
+                                                <option value="TK">Tokelau</option>
+                                                <option value="TO">Tonga</option>
+                                                <option value="TT">Trinidad and Tobago</option>
+                                                <option value="TN">Tunisia</option>
+                                                <option value="TR">Turkey</option>
+                                                <option value="TM">Turkmenistan</option>
+                                                <option value="TC">Turks and Caicos Islands</option>
+                                                <option value="TV">Tuvalu</option>
+                                                <option value="UG">Uganda</option>
+                                                <option value="UA">Ukraine</option>
+                                                <option value="AE">United Arab Emirates</option>
+                                                <option value="GB">United Kingdom</option>
+                                                <option value="US">United States</option>
+                                                <option value="UM">United States Minor Outlying Islands</option>
+                                                <option value="UY">Uruguay</option>
+                                                <option value="UZ">Uzbekistan</option>
+                                                <option value="VU">Vanuatu</option>
+                                                <option value="VE">Venezuela, Bolivarian Republic of</option>
+                                                <option value="VN">Viet Nam</option>
+                                                <option value="VG">Virgin Islands, British</option>
+                                                <option value="VI">Virgin Islands, U.S.</option>
+                                                <option value="WF">Wallis and Futuna</option>
+                                                <option value="EH">Western Sahara</option>
+                                                <option value="YE">Yemen</option>
+                                                <option value="ZM">Zambia</option>
+                                                <option value="ZW">Zimbabwe</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+<!-- row start -->
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group margin-bottom-55">
+                                            <input type="text" name="city" id="city" class="form-control">
+                                            <label for="city">City*</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group margin-bottom-55">
+                                            <input type="text" name="full-address" id="full-address" class="form-control">
+                                            <label for="full-address">Full-address*</label>
+                                        </div>
+                                    </div>
+                                </div>
+<!-- row start -->
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group margin-bottom-55">
+                                            <input type="text" name="website" id="website" class="form-control">
+                                            <label for="website">Website (Optional)</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group margin-bottom-55">
+                                            <input type="text" name="number" id="number" class="form-control">
+                                            <label for="number">Phone Number*</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group margin-bottom-55">
+                                            <input type="text" name="email-address" id="email-address" class="form-control">
+                                            <label for="email-address">Email Address*</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group margin-bottom-55">
+                                            <input type="text" name="fx-num" id="fx-num" class="form-control">
+                                            <label for="fx-num">Fax Number*</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 text-right">
+                                        <small class="span text-right display-block margin-bottom-55">(All fields marked with an * are mandatory)</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="jbm-button jbm-button-3">Post new Job</a>
+
+                    </div>
+                <!-- right section -->
+
+                <!-- Emp sidebar -->
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="jbm-emp-sidebar padding-bottom-30 padding-top-30">
+                            <ul>
+                                <li>
+                                    <a href="#">Company Informations</a>
+                                </li>
+                                <li>
+                                    <a href="#">Message</a>
+                                </li>
+                                <li>
+                                    <a href="#">Job History</a>
+                                </li>
+                                <li>
+                                    <a href="#">Candidates Application</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shortlisted Candidates</a>
+                                </li>
+                                <li>
+                                    <a href="#">Payment History</a>
+                                </li>
+                                <li>
+                                    <a class="active" href="#">Post a Job</a>
+                                </li>
+                                <li>
+                                    <a href="#">Account Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#">Logout</a>
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
+                <!-- Emp sidebar -->
+            </div>
+        </div>
+    </div>
+<!-- employer dashboard -->
+
+
+
+
+
+
+    <!-- start section helpbox -->
+    <div class="jbm-section-helpbox main-1st-bg padding-top-75 padding-bottom-100">
+        <!-- start section title -->
+        <div class="jbm-section-title title-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <span class="section-tit-line"></span>
+                        <h2 class="white"><span class="fw-400">Need Some</span>  Help?</h2>
+                        <p>Feel free to visit our <a href="faqs.html">FAQ section</a>. You can also send us an email <a href="contact-us.html">here</a> or give us a call on (123) 123 456 7890.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end section title -->
+    </div>
+    <!-- end section helpbox -->
+    <footer>
+        <div class="footer-bottom-bar main-2nd-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 hidden-xs hidden-sm text-left">
+                        <p>Made by team <i class="fa fa-heart"></i> Placementor.</p>
+                    </div>
+                    <div class="col-md-2 text-center back-top">
+                        <a href="#" class="back-top-button">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a href="#" class="back-top-link">Back to Top</a>
+                    </div>
+                    <div class="col-md-5 text-right">
+                        <ul class="list-none jbm-social-icon-1 ">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-behance"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 hidden-md hidden-lg text-center">
+                        <p>Made with <i class="fa fa-heart"></i> by PSD_Market. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Spinner -->
+     <div class="jbm-spinner">
+        <div class="spinner-content">
+            <div class="loader-circle"></div>
+            <div class="loader-line-mask">
+                <div class="loader-line"></div>
+            </div>
+        </div>
+    </div>
+     <!-- Spinner end here -->
+    <div class="jbm-login-popup">
+        <div class="popup-overlay"></div>
+        <div class="container">
+            <div class="popup">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-md-5 jbm-login-side">  
+                                    <i class="fa fa-lightbulb-o margin-bottom-50" aria-hidden="true"></i>
+                                    <span class="section-tit-line"></span>
+                                    <h3 class="margin-bottom-60">Login</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Not yet registered? </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Register Here</a>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="jbm-social-icons">
+                                        <li>
+                                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                                        </li>
+                                    </ul>
+                            </div>
+                            <div class="col-md-7 jbm-form">
+                                <ul class="jbm-login-form padding-top-40">
+                                    <li class="candidate selected">
+                                        <a href="#">Candidate</a>
+                                    </li>
+                                    <li class="employer">
+                                        <a href="#">Employer</a>
+                                    </li>
+                                </ul>
+                                <div class="jbm-field login-style margin-top-60">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" name="email-address" id="email-address2" class="form-control">
+                                            <label for="email-address2">Email Address*</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" name="new-pass" id="new-pass2" class="form-control">
+                                            <label for="new-pass2">Enter Password*</label>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="jbm-button jbm-button-3 jbm-hover margin-bottom-40 margin-top-20">Login</a>
+                                    <div class="row margin-bottom-40">
+                                        <div class="col-md-7">
+                                           <div class="terms style3">
+                                                <input type="checkbox" id="c4" name="cc">
+                                                <label for="c4"><span></span></label>
+                                                <small>Keep me logged in</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <a href="#" class="forgot">Forgot Password?</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="row margin-bottom-30">
+                                        <div class="col-md-5 or">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="jbm-or">
+                                                <span class="or">OR</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 or">
+                                        </div>
+                                    </div>
+
+                                    <div class="jbm-social-icons-2 style3">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li class="google-plus">
+                                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li class="twitter">
+                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="close-btn">
+                                <i class="fa fa-close"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--jbm-login-popup end-->
+
+    <div class="jbm-can-register-popup">    
+        <div class="popup-overlay"></div>
+        <div class="popup">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-md-5 jbm-login-side">  
+                                <i class="fa fa-lightbulb-o margin-bottom-50" aria-hidden="true"></i>
+                                <span class="section-tit-line"></span>
+                                <h3 class="margin-bottom-60">Register</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">Already have an account? </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Login Here</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="jbm-social-icons">
+                                    <li>
+                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                        </div>
+                        <div class="col-md-7 jbm-form regis">
+                            <ul class="jbm-login-form padding-top-30">
+                                <li class="candidate selected" data-tab="tab1">
+                                    <a href="#">Candidate</a>
+                                </li>
+                                <li class="employer" data-tab="tab2">
+                                    <a href="#">Employer</a>
+                                </li>
+                            </ul>
+                            <div class="jbm-field current margin-top-60 register" id="tab1">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="name" id="name" class="form-control">
+                                        <label for="name">First Name*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="last-name" id="last-name" class="form-control">
+                                        <label for="last-name">Last Name*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="email-address" id="email-address3" class="form-control">
+                                        <label for="email-address3">Email Address*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="new-pass" id="new-pass3" class="form-control">
+                                        <label for="new-pass3">Enter Password*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="confirm-pass" id="confirm-pass2" class="form-control">
+                                        <label for="confirm-pass2">Password Confirm*</label>
+                                    </div>
+                                </div> 
+                                <img class="margin-top-10" src="assets/img/register-img.jpg" alt>
+                                <div class="jbm-cand-register">
+                                    <a href="#" class="jbm-button jbm-button-3 jbm-hover">Register</a>
+                                </div>
+                                <div class="terms style2">
+                                    <input type="checkbox" id="c5" name="cc">
+                                    <label for="c5"><span></span></label>
+                                    <small>I have read and agree with <a href="#">Terms & Conditions</a></small>
+                                </div>
+                            </div>
+                            <div class="jbm-field margin-top-60 register" id="tab2">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="com-name" id="com-name" class="form-control">
+                                        <label for="com-name">Company Name*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="address" id="address" class="form-control">
+                                        <label for="address">Company Address*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="email-address" id="email-address4" class="form-control">
+                                        <label for="email-address4">Email Address*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="new-pass" id="new-pass4" class="form-control">
+                                        <label for="new-pass4">Enter Password*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="confirm-pass" id="confirm-pass3" class="form-control">
+                                        <label for="confirm-pass3">Password Confirm*</label>
+                                    </div>
+                                </div> 
+                                <img class="margin-top-10" src="assets/img/register-img.jpg" alt>
+                                <div class="jbm-cand-register">
+                                    <a href="#" class="jbm-button jbm-button-3 jbm-hover">Register</a>
+                                </div>
+                                <div class="terms style2">
+                                    <input type="checkbox" id="c6" name="cc">
+                                    <label for="c6"><span></span></label>
+                                    <small>I have read and agree with <a href="#">Terms & Conditions</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="close-btn">
+                            <i class="fa fa-close"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--jbm-can-register-popup end-->
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/lib/slick/slick.js" type="text/javascript"></script>
+    <script src="assets/lib/select2/js/select2.full.min.js" type="text/javascript"></script>
+    <script src="assets/js/custom.js" type="text/javascript"></script>
+
+</body>
+
+</html>

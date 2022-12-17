@@ -1,0 +1,982 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Placementor</title>
+    <!-- stylesheets-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/color.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- start topbar -->
+        
+        <!-- end topbar -->
+ 
+        <!-- start menu -->
+        <div class="jbm-mennubar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="jbm-logo">
+                            
+                            <h2 class="text-primary">Placementor</h2>
+                        </div>
+                        <div class="jbm-menu-icon pull-right hidden-lg">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 302 302" xml:space="preserve"><g><rect y="36" width="302" height="30" fill="#454545"/><rect y="236" width="302" height="30" fill="#454545"/><rect y="136" width="302" height="30" fill="#454545"/></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 offset-md-1">
+                        <nav class="jbm-menu-container">
+                            <ul class="jbm-menu list-none dis-inline">
+                                <li>
+                                    <a href="index2.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Candidates <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <div class="mega-menu">
+                                        <ul>
+                                            <li class="jbm-pg-hd">
+                                                <h3>Candidates Header</h3>
+                                            </li>
+                                            <li>
+                                                <a href="candidate-information.html">Candidate Dashboard</a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="candidate-account-setting.html">Account Settings</a>
+                                            </li>
+                                        </ul>
+                                        
+                                        <ul>
+                                            <li class="jbm-pg-hd">
+                                                <h3>Candidate Pages</h3>
+                                            </li>
+                                            <li>
+                                                <a href="candidate-job-history.html">Job History</a>
+                                            </li>
+                                            <li>
+                                                <a href="cv.html">CV</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">Employers<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <div class="mega-menu">
+                                        <ul>
+                                            <li class="jbm-pg-hd">
+                                                <h3>Heading One</h3>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="apply-job.html">Apply Job</a>
+                                            </li>
+                                            <li>
+                                                <a href="employer-information.html">Employer Dashboard</a>
+                                            </li>
+                                            <li>
+                                                <a href="post-a-job.html">Post A Job</a>
+                                            </li>
+                                            
+                                        </ul>
+                                        <ul>
+                                            <li class="jbm-pg-hd">
+                                                <h3>Heading Two</h3>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="candidate-applications.html">Candidate Applications</a>
+                                            </li>
+                                            <li>
+                                                <a href="shortlisted-candidates.html">Shortlisted Candidates</a>
+                                            </li>
+                                            <li>
+                                                <a href="employer-account-setting.html">Account Settings</a>
+                                            </li>
+                                            
+                                        
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">Browse Jobs<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="job-full-time.html">Job Full Time</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="search.html">Job Search</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="jbm-searchform">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="search-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 text-right">
+                            <form class="form-inline pull-right" method="post">
+                                <div class="form-group m-r-4">
+                                    <input type="text" class="form-control" name="s" id="header-search-input" placeholder="Search here...">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="jbm-search-sm-btn">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="search-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 text-right">
+                            <form class="form-inline pull-right" method="post">
+                                <div class="form-group m-r-4">
+                                    <input type="text" class="form-control" name="s" id="header-search-input" placeholder="Search here...">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="jbm-search-sm-btn">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end menu -->
+        <!-- start mobile menu -->
+        <div class="jbm-menu-wrap">
+            <div class="jbm-mobile-logo-wrap">
+                <div class="jbm-logo">
+                    <a href>
+                        <img src="assets/img/logo.png" alt="Job Market Logo" class="img-responsive">
+                    </a>
+                </div>
+                <div class="jbm-menu-icon pull-right">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 612 612" xml:space="preserve"><g><g id="cross"><g><polygon points="612,36.004 576.521,0.603 306,270.608 35.478,0.603 0,36.004 270.522,306.011 0,575.997 35.478,611.397 306,341.411 576.521,611.397 612,575.997 341.459,306.011 " fill="#454545"/></g></g></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="jbm-mobile-search-wrap margin-bottom-50">
+                <form class="form-inline" method="post">
+                    <div class="form-group m-r-4">
+                        <input type="text" class="form-control" name="s" id="header-search-input2" placeholder="Search here...">
+                    </div>
+                    <div class="form-group pull-right">
+                        <button type="submit" class="jbm-search-sm-btn">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="jbm-mobile-menu-wrap">
+                <ul class="jbm-mobile-menu">
+                    <li class="mobile-hasmenu">
+                        <a href="index2.html">Home</a>
+                        <ul class="mobile-submenu">
+                            <li>
+                                <a href="#">Homepage 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Homepage 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Homepage 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-hasmenu">
+                        <a href="#">Candidates</a>
+                        <ul class="mobile-submenu">
+                            <li class="jbm-pg-hd">
+                                <h3>Candidates Header</h3>
+                            </li>
+                            <li>
+                                <a href="candidate-information.html">Candidate Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="candidate-message.html">Messages</a>
+                            </li>
+                            <li>
+                                <a href="resume.html">Resume</a>
+                            </li>
+                            <li>
+                                <a href="candidate-account-setting.html">Account Settings</a>
+                            </li>
+                            <li class="jbm-pg-hd">
+                                <h3>Candidate Search</h3>
+                            </li>
+                            <li>
+                                <a href="candidate-search.html">Find Candidate</a>
+                            </li>
+                            <li>
+                                <a href="candidate-search-with-map.html">Map Search</a>
+                            </li>
+                            <li>
+                                <a href="candidate-search-with-filter.html">Search with Filters</a>
+                            </li>
+                            <li>
+                                <a href="candidate-search-with-alphabets.html">Search by Alphabets</a>
+                            </li>
+                            <li class="jbm-pg-hd">
+                                <h3>Candidate Pages</h3>
+                            </li>
+                            <li>
+                                <a href="candidate-single.html">Candidate Single</a>
+                            </li>
+                            <li>
+                                <a href="candidate-job-history.html">Job History</a>
+                            </li>
+                            <li>
+                                <a href="cv.html">CV</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-hasmenu">
+                        <a href="#">Employers</a>
+                        <ul class="mobile-submenu">
+                            <li class="jbm-pg-hd">
+                                <h3>Heading One</h3>
+                            </li>
+                            <li>
+                                <a href="single-job.html">Job Single</a>
+                            </li>
+                            <li>
+                                <a href="apply-job.html">Apply Job</a>
+                            </li>
+                            <li>
+                                <a href="employer-information.html">Employer Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="employer-message.html">Message</a>
+                            </li>
+                        
+                            <li class="jbm-pg-hd">
+                                <h3>Heading Two</h3>
+                            </li>
+                            <li>
+                                <a href="employer-job-history.html">Job History</a>
+                            </li>
+                            <li>
+                                <a href="candidate-applications.html">Candidate Applications</a>
+                            </li>
+                            <li>
+                                <a href="shortlisted-candidates.html">Shortlisted Candidates</a>
+                            </li>
+                            <li>
+                                <a href="payment-history.html">Payment History</a>
+                            </li>
+                            <li class="jbm-pg-hd">
+                                <h3>Heading Three</h3>
+                            </li>
+                            <li>
+                                <a href="post-a-job.html">Post A Job</a>
+                            </li>
+                            <li>
+                                <a href="employer-account-setting.html">Account Settings</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-hasmenu">
+                        <a href="#">Broswe Jobs</a>
+                        <ul class="mobile-submenu">
+                            <li>
+                                <a href="locations.html">Locations</a>
+                            </li>
+                            <li>
+                                <a href="job-full-time.html">Job Full Time</a>
+                            </li>
+                            <li>
+                                <a href="search-with-map.html">Map Search</a>
+                            </li>
+                            <li>
+                                <a href="search.html">Job Search</a>
+                            </li>
+                            <li>
+                                <a href="search-with-filter.html">Search with Filters</a>
+                            </li>
+                            <li>
+                                <a href="search-with-alphabets.html">Search by Alphabets</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-hasmenu">
+                        <a href="#">Pages</a>
+                        <ul class="mobile-submenu">
+                            <li class="jbm-pg-hd">
+                                <h3>Page Heading One</h3>
+                            </li>
+                            <li>
+                                <a href="about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="how-it-works.html">How it Works</a>
+                            </li>
+                            <li>
+                                <a href="terms-and-conditions.html">Terms and Conditions</a>
+                            </li>
+                            <li>
+                                <a href="faqs.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="pricing-plans.html">Pricing Plans</a>
+                            </li>
+                            <li class="jbm-pg-hd">
+                                <h3>Page Heading Two</h3>
+                            </li>
+                            <li>
+                                <a href="shortcodes.html">Shortcodes</a>
+                            </li>
+                            <li>
+                                <a href="typography.html">Typography</a>
+                            </li>
+                            <li>
+                                <a href="header-styles.html">Headers</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404 Page</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="career-jobmarket.html">Career Jobmarket</a>
+                            </li>
+                            <li class="jbm-pg-hd">
+                                <h3>Page Heading Three</h3>
+                            </li>
+                            <li>
+                                <a href="search-no-result.html">Search with no result</a>
+                            </li>
+                            <li>
+                                <a href="sitemap.html">Site Map</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-hasmenu">
+                        <a href="#">Blogs</a>
+                        <ul class="mobile-submenu">
+                            <li>
+                                <a href="blog-standard.html">Blog standard</a>
+                            </li>
+                            <li>
+                                <a href="blog-detail.html">Blog Details</a>
+                            </li>
+                            <li>
+                                <a href="blog-detail-fullwidth.html">Blog detail full width</a>
+                            </li>
+                            <li>
+                                <a href="blog-grid.html">Blog grid</a>
+                            </li>
+                            <li>
+                                <a href="blog-list-layout.html">Blog list layout</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="jbm-mobile-bottom-wrap">
+                <div class="jbm-mobile-bottom-wrap-inner clearfix">
+                    <div class="mobile-username pull-left">
+                        <a href="#" class="mob-logout">LOGOUT</a>
+                        <br>
+                        <a href="#" class="mob-user">John Doe</a>
+                    </div>
+                    <div class="mobile-user-image pull-right">
+                        <img src="assets/img/user-1.jpg" alt="user-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end mobile menu -->
+    </header>
+    
+<!-- section page  start -->
+    <div class="jbm-page-title page-title-bg-2 margin-bottom-80">
+        <div class="container">
+             <div class="row">
+                <div class="col-xs-12 text-center">
+                    <span class="section-tit-line"></span>
+                        <h2><span class="fw-400">Candidate</span>
+                        Dashboard</h2>
+                        <p><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a> &nbsp; > &nbsp;<a href="#">Candidate</a> 
+                        &nbsp; > &nbsp;Dashboard</p>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+<!-- employer dashboard -->
+    <div class="jbm-emp-dashboard pad-xs-top-60">
+        <div class="container">
+            <div class="row margin-bottom-100">
+                <!-- right section -->
+                    <div class="col-md-9 col-sm-12 col-xs-12 pull-right">
+                        <div class="job-history table-sm-setting">
+                            <h4>Job History</h4>
+                            <span class="section-tit-line-2 margin-bottom-40"></span>
+
+                            <div class="job-posted padding-bottom-20 table-sm-setting">
+                                <h5 class="margin-bottom-40">Shortlisted Jobs</h5>
+                                <div class="row margin-bottom-20">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <strong class="margin-bottom-20">Job Title</strong>
+                                        <span class="section-tit-line-2 margin-bottom-40"></span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-3">
+                                        <strong class="margin-bottom-20">Company Name</strong>
+                                        <span class="section-tit-line-2 margin-bottom-40"></span>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <strong class="margin-bottom-20">Interview Date</strong>
+                                        <span class="section-tit-line-2 margin-bottom-40"></span>
+                                    </div>
+                                    <div class="col-md-1 col-sm-1 col-xs-2">
+                                    </div>
+                                </div>
+                                <div class="row margin-bottom-40">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <span class="margin-bottom-20">Web Designer</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-3">
+                                        <span class="margin-bottom-20">Company A</span>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <span class="margin-bottom-20">24 Jan 2017</span>
+                                    </div>
+                                    <div class="col-md-1 col-sm-1 col-xs-2">
+                                        <span class="margin-bottom-20">
+                                            <i class="fa fa-trash"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="row margin-bottom-40">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <span class="margin-bottom-20">SEO Analyst</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-3">
+                                        <span class="margin-bottom-20">Company B</span>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <span class="margin-bottom-20">10 Feb 2017</span>
+                                    </div>
+                                    <div class="col-md-1 col-sm-1 col-xs-2">
+                                        <span class="margin-bottom-20">
+                                            <i class="fa fa-trash"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div><!--job-posted end-->
+                            <div class="job-posted padding-bottom-20 table-sm-setting">
+                                <h5 class="margin-bottom-40">Jobs Applied</h5>
+                                <div class="row margin-bottom-20">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <strong class="margin-bottom-20">Job Title</strong>
+                                        <span class="section-tit-line-2 margin-bottom-40"></span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-3">
+                                        <strong class="margin-bottom-20">Company Name</strong>
+                                        <span class="section-tit-line-2 margin-bottom-40"></span>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <strong class="margin-bottom-20">Date Applied</strong>
+                                        <span class="section-tit-line-2 margin-bottom-40"></span>
+                                    </div>
+                                    <div class="col-md-1 col-sm-1 col-xs-2">
+                                    </div>
+                                </div>
+                                <div class="row margin-bottom-40">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <span class="margin-bottom-20">Content Marketing</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-3">
+                                        <span class="margin-bottom-20">Company C</span>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <span class="margin-bottom-20">24 Jan 2017</span>
+                                    </div>
+                                    <div class="col-md-1 col-sm-1 col-xs-2">
+                                        <span class="margin-bottom-20">
+                                            <i class="fa fa-trash"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="row margin-bottom-40">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <span class="margin-bottom-20">Front-End Developer</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-3">
+                                        <span class="margin-bottom-20">Company D</span>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <span class="margin-bottom-20">10 Feb 2017</span>
+                                    </div>
+                                    <div class="col-md-1 col-sm-1 col-xs-2">
+                                        <span class="margin-bottom-20">
+                                            <i class="fa fa-trash"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="row margin-bottom-40">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <span class="margin-bottom-20">Social Media Marketing</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-3">
+                                        <span class="margin-bottom-20">Company E</span>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <span class="margin-bottom-20">12 Mar 2017</span>
+                                    </div>
+                                    <div class="col-md-1 col-sm-1 col-xs-2">
+                                        <span class="margin-bottom-20">
+                                            <i class="fa fa-trash"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="row margin-bottom-40">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <span class="margin-bottom-20">Digital Media Marketing</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-3">
+                                        <span class="margin-bottom-20">Company F</span>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <span class="margin-bottom-20">18 Mar 2017</span>
+                                    </div>
+                                    <div class="col-md-1 col-sm-1 col-xs-2">
+                                        <span class="margin-bottom-20">
+                                            <i class="fa fa-trash"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div><!--job-posted end-->
+                            <div class="jobs-notification margin-bottom-60">
+                                <h5 class="margin-bottom-80">Jobs Notifications</h5>
+                                <div class="jbm-section-title-3 margin-bottom-50">
+                                    <strong class="color-3">Email Notifications</strong>
+                                    <div class="jbm-checkbox">  
+                                        <input type="checkbox" value="None" id="check1" name="check" checked>
+                                        <label for="check1"></label>
+                                    </div>
+                                    <span class="section-tit-line-3 margin-top-15"></span>
+                                </div>
+                                <div class="jbm-section-title-3 margin-bottom-80">
+                                    <strong class="color-3">Message Notifications</strong>
+                                    <div class="jbm-checkbox">  
+                                        <input type="checkbox" value="None" id="check2" name="check">
+                                        <label for="check2"></label>
+                                    </div>
+                                    <span class="section-tit-line-3 margin-top-15"></span>
+                                </div>
+                            </div>
+                            <a href="#" class="jbm-button wd-increase jbm-button-3">Confirm all changes</a>
+
+                        </div>
+                    </div>
+                <!-- right section -->
+                <!-- Emp sidebar -->
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="jbm-emp-sidebar padding-bottom-30 padding-top-30">
+                            <ul class="jbm-dashboard-links">
+                                <li>
+                                    <a href="candidate-information.html">Profile Informations</a>
+                                </li>
+                                <li>
+                                    <a href="candidate-message.html">Message</a>
+                                </li>
+                                <li>
+                                    <a href="resume.html">Resume</a>
+                                </li>
+                                <li>
+                                    <a href="candidate-job-history.html" class="active">Job History</a>
+                                </li>
+                                <li>
+                                    <a href="cv.html">CV and Cover Letter</a>
+                                </li>
+                                <li>
+                                    <a href="candidate-account-setting.html">Account Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                <!-- Emp sidebar -->
+            </div>
+        </div>
+    </div>
+<!-- employer dashboard -->
+
+    <!-- start section helpbox -->
+    <div class="jbm-section-helpbox main-1st-bg padding-top-75 padding-bottom-100">
+        <!-- start section title -->
+        <div class="jbm-section-title title-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <span class="section-tit-line"></span>
+                        <h2 class="white"><span class="fw-400">Need Some</span>  Help?</h2>
+                        <p>Feel free to visit our <a href="faqs.html">FAQ section</a>. You can also send us an email <a href="contact-us.html">here</a> or give us a call on (123) 123 456 7890.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end section title -->
+    </div>
+    <!-- end section helpbox -->
+    <footer>
+        <div class="footer-bottom-bar main-2nd-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 hidden-xs hidden-sm text-left">
+                        <p>Made by team <i class="fa fa-heart"></i> Placementor.</p>
+                    </div>
+                    <div class="col-md-2 text-center back-top">
+                        <a href="#" class="back-top-button">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a href="#" class="back-top-link">Back to Top</a>
+                    </div>
+                    <div class="col-md-5 text-right">
+                        <ul class="list-none jbm-social-icon-1 ">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-behance"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 hidden-md hidden-lg text-center">
+                        <p>Made with <i class="fa fa-heart"></i> by PSD_Market. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Spinner -->
+     <div class="jbm-spinner">
+        <div class="spinner-content">
+            <div class="loader-circle"></div>
+            <div class="loader-line-mask">
+                <div class="loader-line"></div>
+            </div>
+        </div>
+    </div>
+     <!-- Spinner end here -->
+
+
+    <div class="jbm-login-popup">
+        <div class="popup-overlay"></div>
+        <div class="container">
+            <div class="popup">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-md-5 jbm-login-side">  
+                                    <i class="fa fa-lightbulb-o margin-bottom-50" aria-hidden="true"></i>
+                                    <span class="section-tit-line"></span>
+                                    <h3 class="margin-bottom-60">Login</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Not yet registered? </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Register Here</a>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="jbm-social-icons">
+                                        <li>
+                                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                                        </li>
+                                    </ul>
+                            </div>
+                            <div class="col-md-7 jbm-form">
+                                <ul class="jbm-login-form padding-top-40">
+                                    <li class="candidate selected">
+                                        <a href="#">Candidate</a>
+                                    </li>
+                                    <li class="employer">
+                                        <a href="#">Employer</a>
+                                    </li>
+                                </ul>
+                                <div class="jbm-field login-style margin-top-60">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" name="email-address" id="email-address" class="form-control">
+                                            <label for="email-address">Email Address*</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" name="new-pass" id="new-pass2" class="form-control">
+                                            <label for="new-pass2">Enter Password*</label>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="jbm-button jbm-button-3 jbm-hover margin-bottom-40 margin-top-20">Login</a>
+                                    <div class="row margin-bottom-40">
+                                        <div class="col-md-7">
+                                           <div class="terms style3">
+                                                <input type="checkbox" id="c4" name="cc">
+                                                <label for="c4"><span></span></label>
+                                                <small>Keep me logged in</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <a href="#" class="forgot">Forgot Password?</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="row margin-bottom-30">
+                                        <div class="col-md-5 or">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="jbm-or">
+                                                <span class="or">OR</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 or">
+                                        </div>
+                                    </div>
+
+                                    <div class="jbm-social-icons-2 style3">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li class="google-plus">
+                                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li class="twitter">
+                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="close-btn">
+                                <i class="fa fa-close"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--jbm-login-popup end-->
+
+    <div class="jbm-can-register-popup">    
+        <div class="popup-overlay"></div>
+        <div class="popup">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-md-5 jbm-login-side">  
+                                <i class="fa fa-lightbulb-o margin-bottom-50" aria-hidden="true"></i>
+                                <span class="section-tit-line"></span>
+                                <h3 class="margin-bottom-60">Register</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">Already have an account? </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Login Here</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="jbm-social-icons">
+                                    <li>
+                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                        </div>
+                        <div class="col-md-7 jbm-form regis">
+                            <ul class="jbm-login-form padding-top-30">
+                                <li class="candidate selected" data-tab="tab1">
+                                    <a href="#">Candidate</a>
+                                </li>
+                                <li class="employer" data-tab="tab2">
+                                    <a href="#">Employer</a>
+                                </li>
+                            </ul>
+                            <div class="jbm-field current margin-top-60 register" id="tab1">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="name" id="name" class="form-control">
+                                        <label for="name">First Name*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="last-name" id="last-name" class="form-control">
+                                        <label for="last-name">Last Name*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="email-address" id="email-address2" class="form-control">
+                                        <label for="email-address2">Email Address*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="new-pass" id="new-pass3" class="form-control">
+                                        <label for="new-pass3">Enter Password*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="confirm-pass" id="confirm-pass2" class="form-control">
+                                        <label for="confirm-pass2">Password Confirm*</label>
+                                    </div>
+                                </div> 
+                                <img class="margin-top-10" src="assets/img/register-img.jpg" alt>
+                                <div class="jbm-cand-register">
+                                    <a href="#" class="jbm-button jbm-button-3 jbm-hover">Register</a>
+                                </div>
+                                <div class="terms style2">
+                                    <input type="checkbox" id="c5" name="cc">
+                                    <label for="c5"><span></span></label>
+                                    <small>I have read and agree with <a href="#">Terms & Conditions</a></small>
+                                </div>
+                            </div>
+                            <div class="jbm-field margin-top-60 register" id="tab2">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="com-name" id="com-name" class="form-control">
+                                        <label for="com-name">Company Name*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="address" id="address" class="form-control">
+                                        <label for="address">Company Address*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="email-address" id="email-address3" class="form-control">
+                                        <label for="email-address3">Email Address*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="new-pass" id="new-pass4" class="form-control">
+                                        <label for="new-pass4">Enter Password*</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="confirm-pass" id="confirm-pass3" class="form-control">
+                                        <label for="confirm-pass3">Password Confirm*</label>
+                                    </div>
+                                </div> 
+                                <img class="margin-top-10" src="assets/img/register-img.jpg" alt>
+                                <div class="jbm-cand-register">
+                                    <a href="#" class="jbm-button jbm-button-3 jbm-hover">Register</a>
+                                </div>
+                                <div class="terms style2">
+                                    <input type="checkbox" id="c6" name="cc">
+                                    <label for="c6"><span></span></label>
+                                    <small>I have read and agree with <a href="#">Terms & Conditions</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="close-btn">
+                            <i class="fa fa-close"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--jbm-can-register-popup end-->
+
+
+    <div class="jbm-overlay jbm-2nd-bg"></div>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/lib/slick/slick.js" type="text/javascript"></script>
+    <script src="assets/lib/select2/js/select2.full.min.js" type="text/javascript"></script>
+    <script src="assets/js/custom.js" type="text/javascript"></script>
+
+</body>
+
+</html>
